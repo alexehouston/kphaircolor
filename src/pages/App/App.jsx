@@ -46,7 +46,6 @@ export default function App() {
           <img src="/assets/flickity/1.jpeg" alt="" />
           <img src="/assets/flickity/2.jpeg" alt="" />
           <img src="/assets/flickity/5.jpeg" alt="" />
-          <img src="/assets/flickity/9.jpeg" alt="" />
           <img src="/assets/flickity/7.jpeg" alt="" />
           </Flickity>
         </div> )}
