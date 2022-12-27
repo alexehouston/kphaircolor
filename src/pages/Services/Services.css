@@ -55,9 +55,14 @@ td:nth-child(1) {
 
 @media only screen and (max-width: 500px) {
 
+   .table {
+        overflow: auto;
+        height: 70vh;
+   }
+
     table {
         margin-top: -3.5vmin;
-        border-spacing: 0 4.5vmin;
+        border-spacing: 0 10vmin;
     }
     
     th {
