@@ -65,6 +65,8 @@
 
     .title h1 {
         font-size: 6vmin;
+        width: 100vw;
+        text-align: center;
     }
 
     .nav1 ul, .nav2 ul {
