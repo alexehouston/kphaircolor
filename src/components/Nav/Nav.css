@@ -1,0 +1,62 @@
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title h1 {
+    font-family: 'Times-SS', sans-serif;
+    font-size: 4vmin;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.nav1 ul, .nav2 ul {
+    display: flex;
+    column-gap: 5vmin;
+    font-size: 1.5vmin;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.nav1 li:hover, .nav2 li:hover {
+    cursor: pointer;
+}
+
+.nav1 ul {
+    position: fixed;
+    left: 3%;
+    top: 2%;
+}
+
+.nav2 ul {
+    position: fixed;
+    top: 2%;
+    right: 3%;
+}
+
+.hover {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(188, 169, 138);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 

@@ -1,0 +1,53 @@
+.Services {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 85vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: fadeInUp;
+    animation-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+}
+
+.Services p {
+    font-size: 1.25vmin;
+    font-weight: 200;
+    line-height: 2;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 2.25vmin;
+    padding: 1vmin 0 0 3vmin;
+}
+
+th {
+    font-family: 'Times-SS', sans-serif;
+    font-size: 2.5vmin;
+    padding-bottom: 1vmin;
+    width: 50vmin;
+}
+
+td {
+    font-size: 1.25vmin;
+    font-weight: 200;
+}
+
+td:nth-child(1) {
+    font-weight: 500;
+}
+
+.disclaimer {
+    font-size: 1vmin;
+    padding-top: .5vmin;
+}
+
+.recommended {
+    width: 150vmin;
+}

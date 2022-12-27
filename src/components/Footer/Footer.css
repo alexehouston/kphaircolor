@@ -1,0 +1,11 @@
+.Footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.Footer p {
+    font-size: 1.25vmin;
+    text-transform: uppercase;
+}

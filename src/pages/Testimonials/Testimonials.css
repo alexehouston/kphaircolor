@@ -1,0 +1,39 @@
+.Testimonials {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 85vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: fadeInUp;
+    animation-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#testimonials {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15vmin;
+    margin-top: 8vmin;
+}
+
+.Testimonials h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.testimonials-1 p, .testimonials-2 p {
+    font-size: 1.5vmin;
+    font-weight: 200;
+    width: 60vmin;
+    line-height: 2;
+}
+
+.name {
+    font-family: 'Times-SS', sans-serif;
+    text-transform: uppercase;
+    font-size: 2vmin;
+}

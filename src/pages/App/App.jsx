@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import 'animate.css';
+import Flickity from 'react-flickity-component';
+import Nav from '../../components/Nav/Nav';
+import Booking from '../Booking/Booking';
+import Services from '../Services/Services';
+import About from '../About/About';
+import Testimonials from '../Testimonials/Testimonials';
+import Contact from '../Contact/Contact';
+import Footer from '../../components/Footer/Footer';
 import './App.css';
 
-function App() {
+export default function App() {
+  const [currentPage, setCurrentPage] = useState('home');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <main>
+        {currentPage === 'booking' ? ( <Booking /> )
+        : currentPage === 'services' ? ( <Services /> )
+        : currentPage === 'about' ? ( <About /> )
+        : currentPage === 'testimonials' ? ( <Testimonials /> )
+        : currentPage === 'contact' ? ( <Contact /> )
+        : ( <></> )}
+      </main>
+      <Footer />
+    </>
   );
 }
-
-export default App;

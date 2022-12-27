@@ -1,0 +1,69 @@
+.Booking {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 85vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: fadeInUp;
+    animation-duration: 1s;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.Booking p {
+    font-size: 1.25vmin;
+    font-weight: 200;
+    line-height: 2;
+}
+
+.cities {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15vmin;
+    text-align: center;
+    padding: 3vmin;
+}
+
+.cities h1 {
+    font-family: 'Times-SS', sans-serif;
+    font-size: 3vmin;
+}
+
+.cities li {
+    line-height: 2;
+    font-size: 1.5vmin;
+}
+
+.cities a {
+    color: black;
+    background-color: rgb(205, 194, 176);
+    padding: .5vmin;
+    border-radius: 5px;
+    font-size: 1.5vmin;
+    line-height: 4;
+}
+
+.cities a:hover {
+    color: black;
+    background-color: white; 
+}
+
+.dates {
+    margin-top: 3vmin;
+}
+
+.salon h6 {
+    margin: 10vmin 0 3vmin 0;
+    line-height: 0;
+    font-family: 'Times-SS', sans-serif;
+    font-size: 2.5vmin;
+}
+
+.salon li {
+    line-height: 1.5;
+}
