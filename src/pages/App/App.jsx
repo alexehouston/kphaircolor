@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import 'animate.css';
-// import Flickity from 'react-flickity-component';
+import Flickity from 'react-flickity-component';
 import Nav from '../../components/Nav/Nav';
 import Booking from '../Booking/Booking';
 import Services from '../Services/Services';
@@ -13,6 +13,12 @@ import './App.css';
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
+  const flickityOptions = {
+    initialIndex: 1,
+    autoPlay: 2000,
+    contain: true
+  }
+
   return (
     <>
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
@@ -22,7 +28,25 @@ export default function App() {
         : currentPage === 'about' ? ( <About /> )
         : currentPage === 'testimonials' ? ( <Testimonials /> )
         : currentPage === 'contact' ? ( <Contact /> )
-        : ( <></> )}
+        : ( <Flickity
+          className={'carousel'}
+          elementType={'div'}
+          options={flickityOptions}
+          disableImagesLoaded={false}
+          reloadOnUpdate
+          static
+        >
+          <img src="/assets/flickity/4.jpeg" alt="" />
+          <img src="/assets/flickity/0.jpeg" alt="" />
+          <img src="/assets/flickity/6.jpeg" alt="" />
+          <img src="/assets/flickity/3.jpeg" alt="" />
+          <img src="/assets/flickity/8.jpeg" alt="" />
+          <img src="/assets/flickity/1.jpeg" alt="" />
+          <img src="/assets/flickity/2.jpeg" alt="" />
+          <img src="/assets/flickity/5.jpeg" alt="" />
+          <img src="/assets/flickity/9.jpeg" alt="" />
+          <img src="/assets/flickity/7.jpeg" alt="" />
+        </Flickity> )}
       </main>
       <Footer />
     </>

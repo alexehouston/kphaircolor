@@ -35,3 +35,23 @@ a {
 a:hover {
   cursor: pointer;
 }
+
+.carousel {
+  overflow-y: hidden;
+  overflow-x: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 60vh;
+  transform: translate(-50%, -50%);
+  animation: fade ease 2s;
+}
+
+.carousel img {
+  height: 60vh;
+}
+
+.flickity-button {
+  opacity: 0;
+}
