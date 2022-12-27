@@ -2,8 +2,6 @@ import './Contact.css';
 
 export default function Contact() {
 
-    const newClientForm = 'KP Hair Color - NEW CLIENT';
-
     return (
         <div className="Contact">
             <h2>Contact Kristen</h2>
@@ -20,8 +18,8 @@ export default function Contact() {
             </div>
             <h6>If you're a new client, would like to assist me, or would like to leave a testimonial, please fill out the corresponding form below:</h6>
             <div className="forms">
-                <a className ="smaller-btn" href="https://form.jotform.com/223598389579178" target="_blank" rel="noreferrer">New Client Form</a>
-                <a className ="smaller-btn" href="https://form.jotform.com/223598139985172" target="_blank" rel="noreferrer">Assistant Form</a>
+                <a href="https://form.jotform.com/223598389579178" target="_blank" rel="noreferrer">New Client Form</a>
+                <a href="https://form.jotform.com/223598139985172" target="_blank" rel="noreferrer">Assistant Form</a>
                 <a href="https://form.jotform.com/223597889261170" target="_blank" rel="noreferrer">KP Health Coaching - Testimonial</a>
                 <a href="https://form.jotform.com/223598631679169" target="_blank" rel="noreferrer">KP Hair Color - Testimonial</a>
             </div>

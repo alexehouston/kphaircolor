@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import 'animate.css';
-import Flickity from 'react-flickity-component';
+// import Flickity from 'react-flickity-component';
 import Nav from '../../components/Nav/Nav';
 import Booking from '../Booking/Booking';
 import Services from '../Services/Services';
