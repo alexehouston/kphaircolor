@@ -7,4 +7,59 @@
     left: 0;
     animation: fadeInUp;
     animation-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8vmin;
+}
+
+.Contact h6 {
+    text-transform: uppercase;
+    font-weight: 200;
+    position: fixed;
+    bottom: 22%;
+}
+
+.Contact h4 {
+    font-family: 'Times-SS', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: -2vmin;
+}
+
+.follow-me, .follow-me-2 {
+    font-size: 5vmin;
+    display: flex;
+    column-gap: 5vmin;
+    text-align: center;
+    margin-top: -3vmin;
+}
+
+.follow-me-2 {
+    font-size: 3.5vmin;
+    column-gap: 3vmin;
+}
+
+.forms {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 10vmin;
+    position: fixed;
+    bottom: 15%;
+}
+
+.forms a {
+    background-color: rgb(205, 194, 176);
+    padding: 1vmin;
+    border-radius: 5px;
+    font-size: 2.5vmin;
+    text-transform: uppercase;
+    font-family: 'Times-SS', sans-serif;
+    text-align: center;
+}
+
+.forms a:hover {
+    color: black;
+    background-color: white; 
 }
