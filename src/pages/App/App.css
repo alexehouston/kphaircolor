@@ -83,4 +83,9 @@ a:hover {
     font-size: 5vmin;
     width: 70vw;
   }
+
+  .Booking, .Services, .About, .Testimonials, .Contact {
+    height: 80vh;
+  }
+
 }
