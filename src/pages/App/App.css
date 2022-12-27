@@ -5,13 +5,8 @@
   src: url('../../../public/fonts/times-ss.ttf');
 }
 
-:root {
-  --peach: #F6ECE5;
-  --blush: #D5C1B6;
-}
-
 html {
-  background-color: var(--peach);
+  background-color: #F6ECE5;
   font-family: 'Martian Mono', monospace;
   overflow: hidden;
 }
@@ -40,18 +35,52 @@ a:hover {
   overflow-y: hidden;
   overflow-x: auto;
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
   transform: translate(-50%, -50%);
   animation: fade ease 2s;
 }
 
 .carousel img {
-  height: 60vh;
+  height: 50vh;
 }
 
 .flickity-button {
   opacity: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.App h2 {
+  font-size: 3vmin;
+  text-align: center;
+  letter-spacing: .5vmin;
+  color: rgb(168, 148, 129);
+}
+
+@media only screen and (max-width: 500px) {
+
+  .carousel, .carousel img {
+    height: 40vh;
+  }
+
+  .App {
+    height: 45vh;
+  }
+
+  h2 {
+    font-size: 5.5vmin;
+  }
+
+  .App h2 {
+    font-size: 5vmin;
+    width: 70vw;
+  }
 }

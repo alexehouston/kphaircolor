@@ -10,7 +10,6 @@
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
 }
@@ -66,4 +65,30 @@
 
 .salon li {
     line-height: 1.5;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .cities {
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        width: 100vw;
+    }
+
+    .cities h1 {
+        font-size: 5vmin;
+    }
+    
+    .cities li, .cities a {
+        font-size: 2.5vmin;
+    }
+
+    .salon h6 {
+        font-size: 4vmin;
+    }
+
+    .salon li {
+        padding: 3vmin;
+    }
 }

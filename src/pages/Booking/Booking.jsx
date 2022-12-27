@@ -16,8 +16,7 @@ export default function Booking() {
                     </div>
                     <div className="salon">
                         <h6>Solo Salon</h6>
-                        <li>1134 W Washington Blvd</li>
-                        <li>Chicago, IL 60607</li>
+                        <li>1134 W Washington Blvd<br/>Chicago, IL 60607</li>
                     </div>
                     <hr />
                 </div>
@@ -32,8 +31,7 @@ export default function Booking() {
                     </div>
                     <div className="salon">
                         <h6>Oro Salon</h6>
-                        <li>435A Duboce Ave</li>
-                        <li>San Francisco, CA 94117</li>
+                        <li>435A Duboce Ave<br/>San Francisco, CA 94117</li>
                     </div>
                 <hr />
                 </div>
@@ -48,8 +46,7 @@ export default function Booking() {
                     </div>
                     <div className="salon">
                         <h6>Maria Bonita Salon</h6>
-                        <li>199 Mott St</li>
-                        <li>New York, NY 10012</li>
+                        <li>199 Mott St<br/>New York, NY 10012</li>
                     </div>
                     <hr />
                     <br />

@@ -41,9 +41,9 @@
 .hover {
     position: relative;
     text-decoration: none;
-  }
+}
   
-  .hover::after {
+.hover::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -54,9 +54,22 @@
     background-color: rgb(188, 169, 138);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+}
   
-  .hover:hover::after {
+.hover:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  } 
+}
+
+@media only screen and (max-width: 500px) {
+
+    .title h1 {
+        font-size: 6vmin;
+    }
+
+    .nav1 ul, .nav2 ul {
+        font-size: 2vmin;
+        top: 7%;
+    }
+
+}

@@ -22,6 +22,7 @@
 
 .Testimonials h3 {
     text-transform: uppercase;
+    font-size: 3vmin;
     font-weight: 500;
 }
 
@@ -35,5 +36,25 @@
 .name {
     font-family: 'Times-SS', sans-serif;
     text-transform: uppercase;
-    font-size: 2vmin;
+    font-size: 2.5vmin;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #testimonials {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vmin;
+        margin-top: 2vmin;
+    }
+
+    .testimonials-1 p, .testimonials-2 p {
+        font-size: 1.8vmin;
+        width: 75vmin;
+    }
+
+    .name {
+        font-size: 3vmin;
+    }
+
 }

@@ -46,8 +46,31 @@ td:nth-child(1) {
 .disclaimer {
     font-size: 1vmin;
     padding-top: .5vmin;
+    font-weight: 500;
 }
 
 .recommended {
     width: 150vmin;
+}
+
+@media only screen and (max-width: 500px) {
+
+    table {
+        margin-top: -3.5vmin;
+        border-spacing: 0 4.5vmin;
+    }
+    
+    th {
+        font-size: 3vmin;
+    }
+
+    td {
+        font-size: 1.8vmin;
+    }
+
+    .disclaimer {
+        font-size: 1.5vmin;
+    }
+
+
 }

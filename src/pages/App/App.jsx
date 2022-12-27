@@ -15,7 +15,7 @@ export default function App() {
 
   const flickityOptions = {
     initialIndex: 1,
-    autoPlay: 2000,
+    autoPlay: 3000,
     contain: true
   }
 
@@ -28,14 +28,16 @@ export default function App() {
         : currentPage === 'about' ? ( <About /> )
         : currentPage === 'testimonials' ? ( <Testimonials /> )
         : currentPage === 'contact' ? ( <Contact /> )
-        : ( <Flickity
+        : ( <div className="App">
+          <h2>Low Maintenance Hair Color</h2>
+          <Flickity
           className={'carousel'}
           elementType={'div'}
           options={flickityOptions}
           disableImagesLoaded={false}
           reloadOnUpdate
           static
-        >
+          >
           <img src="/assets/flickity/4.jpeg" alt="" />
           <img src="/assets/flickity/0.jpeg" alt="" />
           <img src="/assets/flickity/6.jpeg" alt="" />
@@ -46,7 +48,8 @@ export default function App() {
           <img src="/assets/flickity/5.jpeg" alt="" />
           <img src="/assets/flickity/9.jpeg" alt="" />
           <img src="/assets/flickity/7.jpeg" alt="" />
-        </Flickity> )}
+          </Flickity>
+        </div> )}
       </main>
       <Footer />
     </>
