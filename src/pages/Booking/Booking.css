@@ -73,11 +73,12 @@
         display: flex;
         flex-direction: column;
         overflow-y: auto;
-        width: 100vw;
+        height: 60vh;
     }
 
     .cities h1 {
-        font-size: 5vmin;
+        font-size: 4.5vmin;
+        margin-top: 0;
     }
     
     .cities li, .cities a {
@@ -90,5 +91,15 @@
 
     .salon li {
         padding: 3vmin;
+    }
+    
+    .Booking p {
+        font-size: 1.6vmin;
+        margin-top: 2vmin;
+        margin-bottom: -.5vmin;
+    }
+
+    .p2 {
+        width: 80vw;
     }
 }

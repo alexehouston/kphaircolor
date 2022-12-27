@@ -52,8 +52,8 @@ export default function Booking() {
                     <br />
                 </div>
             </div>
-            <p>Kristen will be traveling with stylist Alex E. Houston to all 3 locations.
-            <br/>When booking haircut with Alex, please book at least one hour before coloring services *OR* 3 hours after.</p>
+            <p>Kristen will be traveling with stylist Alex E. Houston to all 3 locations.</p>
+            <p className="p2">When booking haircut with Alex, please book at least one hour before coloring services *OR* 3 hours after.</p>
         </div>
     );
 }
