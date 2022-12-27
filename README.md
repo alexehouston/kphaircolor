@@ -1,5 +1,5 @@
 <div id="header" align="center">
-    <img src="public/readme/banner.png" width="600">
+    <img src="public/readme/banner.png" width="800">
 </div>
 
 <div align="center">
