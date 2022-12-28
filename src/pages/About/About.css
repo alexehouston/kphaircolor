@@ -59,3 +59,21 @@
     }
 
 }
+
+@media only screen and (max-width: 1500px) {
+
+    .kristen {
+        position: fixed;
+        width: auto;
+        height: 80vh;
+    }
+
+    .kristen img {
+        width: 100vmin;
+    }
+
+    .About p {
+        font-size: 1.5vmin;
+        width: 70vw;
+    }
+}

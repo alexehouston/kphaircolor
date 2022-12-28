@@ -58,3 +58,22 @@
     }
 
 }
+
+@media only screen and (max-width: 1500px) {
+
+    #testimonials {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4vmin;
+    }
+
+    .Testimonials h3 {
+        font-size: 2vmin;
+    }
+
+    .testimonials-1 p, .testimonials-2 p {
+        font-size: 1.5vmin;
+        width: 80vmin;
+    }
+
+}

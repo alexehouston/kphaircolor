@@ -92,3 +92,24 @@
     }
 
 }
+
+@media only screen and (max-width: 1500px) {
+
+    .forms {
+        flex-direction: column;
+        row-gap: 4vmin;
+        bottom: 10%;
+    }
+
+    .Contact h6 {
+        font-size: 1.6vmin;
+        bottom: 32%;
+        width: 75vmin;
+        text-align: center;
+    }
+
+    .forms a {
+        font-size: 2vmin;
+    }
+
+}

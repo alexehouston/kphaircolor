@@ -69,9 +69,12 @@
         text-align: center;
     }
 
+}
+
+@media only screen and (max-width: 1500px) {
+
     .nav1 ul, .nav2 ul {
         font-size: 2vmin;
         top: 7%;
     }
-
 }
