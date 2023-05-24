@@ -7,6 +7,7 @@ import Services from '../Services/Services';
 import About from '../About/About';
 import Testimonials from '../Testimonials/Testimonials';
 import Contact from '../Contact/Contact';
+import Cancellation from '../Cancellation/Cancellation';
 import Footer from '../../components/Footer/Footer';
 import './App.css';
 
@@ -24,10 +25,11 @@ export default function App() {
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main>
         {currentPage === 'booking' ? ( <Booking /> )
-        : currentPage === 'services' ? ( <Services /> )
+        : currentPage === 'services' ? ( <Services currentPage={currentPage} setCurrentPage={setCurrentPage} /> )
         : currentPage === 'about' ? ( <About /> )
         : currentPage === 'testimonials' ? ( <Testimonials /> )
         : currentPage === 'contact' ? ( <Contact /> )
+        : currentPage === 'cancellation' ? ( <Cancellation /> )
         : ( <div className="App">
           <h2>Low Maintenance Hair Color</h2>
           <Flickity

@@ -28,6 +28,10 @@
     margin-top: -3vmin;
 }
 
+.fa-phone {
+    font-size: 3.5vmin;
+}
+
 .forms {
     display: flex;
     justify-content: center;

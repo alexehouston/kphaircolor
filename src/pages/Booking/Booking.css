@@ -71,6 +71,8 @@
 
 .salon li {
     line-height: 1.5;
+    font-weight: 300;
+    padding-bottom: 1vmin;
 }
 
 @media only screen and (max-width: 500px) {

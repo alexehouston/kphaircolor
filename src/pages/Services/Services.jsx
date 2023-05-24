@@ -1,11 +1,9 @@
 import './Services.css';
 
-export default function Services() {
+export default function Services({ currentPage, setCurrentPage }) {
     return (
         <div className="Services">
             <h2>Services</h2>
-            {/* <p>Kristen travels on location and takes a high volume of clients in a day.
-            <br />Please review the cancellation policy when booking as we require 3 days notice to cancel appointment. the duration listed is an estimate as color services can vary based on each client’s unique needs. kp and her team always do their best to run on time and efficiently please do your part and make sure to review the updated service menu and be sure to book the correct service. if you are unsure fill out the consultation form with photos, email kristen@kphaircolor.com, or text only 708-351-7087 for clients who are looking to camouflage their grey hairs with this technique please utilize my new add on service when booking anything from a face frame to a full. this will extend your appointment time 15 minutes as this requires more of my time and attention to detail. There will be a $25 increase to your service total.</p> */}
             <div className="table">
                 <table>
                     <tr>
@@ -22,7 +20,6 @@ export default function Services() {
                             <li>Baby Lights + Tip Out</li>
                             <li>Face Frame Highlight</li>
                             <li>Toner/Treatment</li>
-                            <li>Blowout/Style</li>
                         </td>
                         <td>New clients / existing clients with 5+ months regrowth</td>
                         <td>4 Hrs+</td>
@@ -34,7 +31,6 @@ export default function Services() {
                             <li>Baby Lights + Tip Out</li>
                             <li>Face Frame Highlight</li>
                             <li>Toner/Treatment</li>
-                            <li>Blowout/Style</li>
                         </td>
                         <td>Clients concerned about integrity of hair / dimensional blondes / Lived-In brunettes</td>
                         <td>4 Hrs+</td>
@@ -69,7 +65,6 @@ export default function Services() {
                         <td>
                             <li>Baby Lights<br/><span className="disclaimer">(All Over)</span></li>
                             <li>Toner/Treatment</li>
-                            <li>Blowout/Style</li>
                         </td>
                         <td>
                             <li>Clients who want a soft look</li>
@@ -83,7 +78,6 @@ export default function Services() {
                         <td>
                             <li>Baby Lights<br/><span className="disclaimer">(Top of head / Around Face)</span></li>
                             <li>Toner/Treatment</li>
-                            <li>Blowout/Style</li>
                         </td>
                         <td>Clients looking to freshen up roots & add a pop around the face</td>
                         <td>3 Hrs+</td>
@@ -93,7 +87,6 @@ export default function Services() {
                         <td>$150+</td>
                         <td>
                             <li>Toner/Treatment</li>
-                            <li>Blowout/Style</li>
                         </td>
                         <td>Clients looking for grey coverage</td>
                         <td>2 Hrs+</td>
@@ -103,7 +96,6 @@ export default function Services() {
                         <td>$95+</td>
                         <td>
                             <li>Toner/Treatment</li>
-                            <li>Blowout/Style</li>
                         </td>
                         <td>
                         <li>Clients looking to change tone of hair, add depth, shine or dimension.</li>
@@ -112,6 +104,7 @@ export default function Services() {
                         <td>2 Hrs+</td>
                     </tr>
                 </table>
+                <p>All services include a blowout/style.<br/>Please review my <span className="cancellation" onClick={() => setCurrentPage('cancellation')}>cancellation policy</span> prior to booking.</p>
             </div>
         </div>
     );

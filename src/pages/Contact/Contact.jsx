@@ -8,6 +8,7 @@ export default function Contact() {
             <div className="follow-me">
                 <a href="https://instagram.com/kphaircolor" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.facebook.com/Kphaircolor/" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                <a href="tel:708 351-7087"><i class="fa-solid fa-phone"></i></a>
                 <a href="mailto:kristen@kphaircolor.com" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope"></i></a>
             </div>
             <h6>If you're a new client, would like to assist me, or would like to leave a testimonial, please fill out the corresponding form below:</h6>
