@@ -16,7 +16,7 @@ export default function App() {
 
   const flickityOptions = {
     initialIndex: 1,
-    autoPlay: 3000,
+    autoPlay: 1000,
     contain: true
   }
 

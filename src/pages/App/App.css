@@ -41,6 +41,7 @@ a:hover {
   height: 50vh;
   transform: translate(-50%, -50%);
   animation: fade ease 2s;
+  overflow: hidden;
 }
 
 .carousel img {
