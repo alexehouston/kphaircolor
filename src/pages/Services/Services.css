@@ -19,7 +19,7 @@
     font-size: 1.15vmin;
     font-weight: 200;
     line-height: 1.5;
-    margin-top: 5vmin;
+    margin-top: 4vmin;
 }
 
 .cancellation {
@@ -33,7 +33,7 @@
 
 table {
     border-collapse: separate;
-    border-spacing: 0 2.25vmin;
+    border-spacing: 0 2.5vmin;
     padding: 0vmin 0 0 3vmin;
 }
 

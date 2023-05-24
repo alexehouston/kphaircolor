@@ -104,7 +104,7 @@ export default function Services({ currentPage, setCurrentPage }) {
                         <td>2 Hrs+</td>
                     </tr>
                 </table>
-                <p>All services include a blowout/style.<br/>Please review my <span className="cancellation" onClick={() => setCurrentPage('cancellation')}>cancellation policy</span> prior to booking.</p>
+                <p>All services include a blowout & style / Please review my <span className="cancellation" onClick={() => setCurrentPage('cancellation')}>cancellation policy</span> prior to booking</p>
             </div>
         </div>
     );
