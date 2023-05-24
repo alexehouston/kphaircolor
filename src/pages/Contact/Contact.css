@@ -15,29 +15,17 @@
 
 .Contact h6 {
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 300;
     position: fixed;
     bottom: 22%;
 }
 
-.Contact h4 {
-    font-family: 'Times-SS', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: -2vmin;
-    font-size: 2.5vmin;
-}
-
-.follow-me, .follow-me-2 {
-    font-size: 5vmin;
+.follow-me {
+    font-size: 4vmin;
     display: flex;
     column-gap: 5vmin;
     text-align: center;
     margin-top: -3vmin;
-}
-
-.follow-me-2 {
-    font-size: 3.5vmin;
-    column-gap: 3vmin;
 }
 
 .forms {
@@ -47,21 +35,22 @@
     gap: 10vmin;
     position: fixed;
     bottom: 15%;
+    /* padding: 2vmin; */
 }
 
 .forms a {
     background-color: rgb(205, 194, 176);
-    padding: 1vmin;
-    border-radius: 5px;
+    padding: 1vmin 2vmin;
+    border-radius: 25px;
     font-size: 2.5vmin;
     text-transform: uppercase;
     font-family: 'Times-SS', sans-serif;
     text-align: center;
+    transition: all 0.75s ease;
 }
 
 .forms a:hover {
-    color: black;
-    background-color: white; 
+    transform: scale(1.05);
 }
 
 @media only screen and (max-width: 500px) {

@@ -10,12 +10,6 @@ export default function Contact() {
                 <a href="https://www.facebook.com/Kphaircolor/" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook"></i></a>
                 <a href="mailto:kristen@kphaircolor.com" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope"></i></a>
             </div>
-            <h4>Contact Alex Houston</h4>
-            <div className="follow-me-2">
-                <a href="https://instagram.com/byalexehouston" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.alexehouston.com" target="_blank" rel="noreferrer"><i className="fa-solid fa-earth-americas"></i></a>
-                <a href="mailto:info@alexehouston.com" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope"></i></a>
-            </div>
             <h6>If you're a new client, would like to assist me, or would like to leave a testimonial, please fill out the corresponding form below:</h6>
             <div className="forms">
                 <a href="https://form.jotform.com/223598389579178" target="_blank" rel="noreferrer">New Client Form</a>

@@ -24,7 +24,7 @@ export default function Services() {
                             <li>Toner/Treatment</li>
                             <li>Blowout/Style</li>
                         </td>
-                        <td>New clients *or* existing clients with 5+ months of regrowth.</td>
+                        <td>New clients / existing clients with 5+ months regrowth</td>
                         <td>4 Hrs+</td>
                     </tr>
                     <tr>
@@ -36,7 +36,7 @@ export default function Services() {
                             <li>Toner/Treatment</li>
                             <li>Blowout/Style</li>
                         </td>
-                        <td>New or returning clients concerned about integrity of hair, dimensional blondes, or Lived-In brunettes.</td>
+                        <td>Clients concerned about integrity of hair / dimensional blondes / Lived-In brunettes</td>
                         <td>4 Hrs+</td>
                     </tr>
                     <tr>
@@ -46,8 +46,8 @@ export default function Services() {
                             <li>Baby Lights + pops<br/><span className="disclaimer">(Around Face)</span></li>
                         </td>
                         <td>
-                            <li>Clients looking to prolonge color by refreshing face frame or "pop."</li>
-                            <li className="disclaimer">Does *NOT* include highlights anywhere else</li>
+                            <li>Clients looking to prolonge color by refreshing face frame</li>
+                            <li className="disclaimer">(Does not include highlights anywhere else)</li>
                         </td>
                         <td>1.5 Hrs+</td>
                     </tr>
@@ -58,8 +58,8 @@ export default function Services() {
                             <li>Baby Lights + pops<br/><span className="disclaimer">(Around Face + Nape of neck)</span></li>
                         </td>
                         <td>
-                            <li>Clients loooking to prolonge color and wear hair up often.</li>
-                            <li className="disclaimer">Does *NOT* include baby lights on top of the head.</li>
+                            <li>Clients loooking to prolonge color and wear hair up often</li>
+                            <li className="disclaimer">(Does not include baby lights on top of the head)</li>
                         </td>
                         <td>2 Hrs+</td>
                     </tr>
@@ -72,8 +72,8 @@ export default function Services() {
                             <li>Blowout/Style</li>
                         </td>
                         <td>
-                            <li>Clients who want a soft look.</li>
-                            <li className="disclaimer">Does *NOT* include teasing or pops.</li>
+                            <li>Clients who want a soft look</li>
+                            <li className="disclaimer">(Does not include teasing or pops)</li>
                         </td>
                         <td>4 Hrs+</td>
                     </tr>
@@ -85,7 +85,7 @@ export default function Services() {
                             <li>Toner/Treatment</li>
                             <li>Blowout/Style</li>
                         </td>
-                        <td>Clients who need to freshen up their roots and add a pop around the face *ONLY*</td>
+                        <td>Clients looking to freshen up roots & add a pop around the face</td>
                         <td>3 Hrs+</td>
                     </tr>
                     <tr>

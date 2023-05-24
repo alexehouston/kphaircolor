@@ -15,9 +15,10 @@
 }
 
 .Booking p {
-    font-size: 1.25vmin;
-    font-weight: 200;
-    line-height: 2;
+    font-size: 1.1vmin;
+    font-weight: 300;
+    line-height: 3;
+    margin-top: 3vmin;
 }
 
 .cities {
@@ -26,6 +27,10 @@
     column-gap: 15vmin;
     text-align: center;
     padding: 3vmin;
+}
+
+.chi, .sf, .ny {
+    width: 30vmin;
 }
 
 .cities h1 {
@@ -38,18 +43,19 @@
     font-size: 1.5vmin;
 }
 
-.cities a {
+.booking-link {
     color: black;
     background-color: rgb(205, 194, 176);
-    padding: .5vmin;
-    border-radius: 5px;
+    padding: .75vmin 1vmin;
+    border-radius: 25px;
     font-size: 1.5vmin;
     line-height: 4;
+    border: 1px solid rgba(128, 122, 108, 0.4);
+    transition: all 0.5s ease;
 }
 
-.cities a:hover {
-    color: black;
-    background-color: white; 
+.booking-link:hover {
+    background-color: white;
 }
 
 .dates {
@@ -81,7 +87,7 @@
         margin-top: 0;
     }
     
-    .cities li, .cities a {
+    .cities li, .booking-link {
         font-size: 2.5vmin;
     }
 

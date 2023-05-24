@@ -43,6 +43,14 @@ td:nth-child(1) {
     font-weight: 500;
 }
 
+td:nth-child(2) {
+    font-size: 1.5vmin;
+}
+
+td:nth-child(5) {
+    font-size: 1.5vmin;
+}
+
 .disclaimer {
     font-size: 1vmin;
     padding-top: .5vmin;
